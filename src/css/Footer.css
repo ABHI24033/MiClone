@@ -1,0 +1,163 @@
+.preFooter{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 5vmax 0 0 0 ;
+    padding-bottom: 0;
+    padding: 1vmax;
+}
+.preFooter>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgba(66,66,66,0829);
+    cursor: pointer;
+}
+.preFooter >div:hover svg{
+    fill: rgb(34,34,34);
+}
+.preFooter>div:hover p{
+    color: rgb(19,18,19);
+}
+/* .preFooter span{
+    text-align: left;
+} */
+.preFooter svg{
+    transform: scale(2) translateY(-0.2vmax);
+    fill: rgba(37,37,37,0.522);
+    margin: 2vmax; 
+}
+
+
+/* ================Pre footer -2============  */
+.preFooter_2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgba(207, 206, 204,0.44);
+}
+.preFooter_2>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.preFooter_2>div >p{
+    width: 18vmax;
+    color: rgba(0,0,0,0.842);
+    font-size: 1.5vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+}
+.preFooter_2>div>span{
+    color: rgba(51,51,51,0.842);
+    width: 18vmax;
+    font-size: 1vmax;
+}
+.preFooter_2>div>div input{
+    outline: none;
+    /* border: 1px solid rgba(37,37,37,0.222);
+ */
+ border: none;
+    padding: 0.5vmax 1vmax;
+    background-color:rgb(255,255,255);
+    font-size: 1vmax;
+    width: 20.4vmax;
+}
+.preFooter_2>div>div button{
+    border: none;
+    outline: none;
+    padding: 0.5vmax;
+    background-color: rgb(255,255,255);
+}
+.preFooter_2 > div > div{
+    border: 1px solid rgba(126, 126, 126, 0.493);
+}
+.preFooter_2 >div:nth-child(2) span{
+    width: 22vmax;
+}
+.preFooter_2 >div:nth-child(3) span{
+    width: 14vmax;
+}
+.preFooter_2 >div:nth-child(3) p{
+    width: 14vmax;
+}
+.preFooter_2 >div:nth-child(4) {
+    flex-direction: row;
+}
+.preFooter_2 >div:nth-child(4) svg{
+    fill:  rgba(138, 138, 138, 0.805);;
+    margin: 1vmax;
+    cursor: pointer;
+}
+.preFooter_2 >div:nth-child(4) svg:hover{
+    fill:  rgb(56, 56, 56);;
+    margin: 1vmax;
+    cursor: pointer;
+}
+
+/* =============Footer style=============== */
+.Footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+    padding: 4.5vmax;
+    background-color: rgb(37, 37, 37);
+    color: rgb(197, 197, 197);
+}
+.Footer > div{
+    margin:1vmax;
+    display: flex;
+    flex-direction: column;
+
+}
+.Footer > div:nth-child(2){
+    display: block;
+}
+.Footer > div:nth-child(2) >a{
+        display: inline-block;
+
+}
+.Footer > div > a{
+    color: rgb(197, 197, 197);
+    font-size: 1vmax;
+    text-decoration: none;
+    margin: 0.6vmax 0;
+}
+.Footer > div > a:hover{
+    color: white;
+}
+
+.Footer > div:last-child >div{
+    width: 45%;
+    margin: 1vmax 0;
+    font-size: 0.8vmax;
+}
+
+.Footer > div:last-child >button{
+width: 50%;
+border:1px solid white;
+background-color: rgb(37, 37, 37);
+color: white;
+padding: 0.6vmax 0;
+font-size: 0.98vmax;
+font-weight: 100;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+transition: all 0.5s;
+}
+
+.Footer > div:last-child >button:hover{
+    background-color: rgb(248, 244, 244);
+    color: rgb(37, 37, 37);
+}
+
+.FooterBorder{
+    background-color:   rgb(37, 37, 37)  ; 
+    color: white;
+    
+}
+.FooterBorder >div{
+    border-top: 1px solid rgba(197, 197, 197, 0.185) ;
+    color: rgb(197, 197, 197);
+    width: 90vmax;
+    margin: auto;
+    padding: 2vmax;
+   font-size: 0.98vmax;
+}

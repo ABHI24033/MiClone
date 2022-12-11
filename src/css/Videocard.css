@@ -1,0 +1,39 @@
+.Video{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+}
+
+
+/* ==================videocard styling============ */
+.VideoCard{
+    width: 38vmax;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    margin: 0.5vmax;
+}
+.VideoCard>a{
+padding: 2.5vmax;
+transition: all 0.5s;
+border: none;
+border-radius: 100%;
+/* border-color: rgba(255,255,255,0.496); */
+background-color: rgba(255, 255, 255,0.096);
+}
+.VideoCard>a svg{
+    fill: white;
+}
+.VideoCard:hover a{
+   
+    background-color: rgba(255, 255, 255,0.670);
+}
+.VideoCard p{
+    color: white;
+    margin: 1vmax;
+}

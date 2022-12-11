@@ -1,0 +1,22 @@
+.navCard{
+    width: 10vmax;
+    text-align: center;
+    cursor: pointer;
+}
+.navCard>img{
+    width: 10vmax;
+}
+.navCard>p{
+    margin: 0;
+}
+.navCard>span{
+    color: orangered;
+}
+
+/* =============Nav Option ================== */
+.Navoption{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2vmax;
+    z-index: 1000;
+}

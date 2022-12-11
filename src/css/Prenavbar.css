@@ -1,0 +1,37 @@
+.prenavbar{
+    background-color: rgb(29,28,28);
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    color: aliceblue;
+    
+}
+.prenavbar>div{
+    padding: 0vmax 4vmax;
+    display: flex;
+    align-items: center;
+}
+.prenavbar>div>span{
+    background-color: rgba(180, 180, 180, 0.644);
+    font-size: 0.8vmax;
+    font-weight: 100;
+}
+.prenavbar > div>a{
+    color: rgba(180, 180, 180);
+    font-size: 0.9vmax;
+    font-weight: 300;
+    margin: 1vmax;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.prenavbar>div>a:hover{
+    color: white;
+}
+.prenavbar >div svg{
+    fill: rgb(180,180,180);
+}
+.prenavbar >div svg:hover{
+    fill: rgb(255, 252, 252);
+}
+.cart{
+    color:rgb(7, 7, 5)
+}
